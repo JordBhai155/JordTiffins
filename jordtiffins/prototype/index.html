@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JordFins - When Innovation Meets Health</title>
+    <link rel="stylesheet" href="mainstyle.css">
+    <link rel="stylesheet" href="utilities.css">
+    <link rel="stylesheet" href="../src/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://kit.fontawesome.com/05ff82a0b9.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Fira+Sans&family=Hind+Siliguri:wght@500&family=Inter&family=Noto+Sans&family=Nunito:wght@500&family=PT+Sans&family=Poppins&family=Roboto&family=Roboto+Condensed&family=Unbounded&family=Varela+Round&display=swap"
+        rel="stylesheet">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> -->
+
+    <script src=""></script>
+</head>
+
+<body>
+    <div class="navbar flex align jc-evenly">
+
+        <ul id="left-ul" class="ul-comp flex align jc-between">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Explore</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Founder</a></li>
+
+        </ul>
+        <div class="name-logo center">
+            <img src="../public/images/jordfins-png.png" alt="JordFins Logo" srcset="">
+            <h1>JordFins</h1>
+        </div>
+        <ul id="right-ul" class="ul-comp center">
+            <li><a href="#">Query</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">BestSellers</a></li>
+            <li><a href="#">Cart</a></li>
+
+        </ul>
+        <!-- <a href="/" id="cart-link"><i class="fa-solid fa-cart-shopping fa-2x cart"></i></a> -->
+    </div>
+    <hr class="nv-divider">
+    <div class="main">
+        <div class="banner center">
+
+            <img src="../public/images/main_banner.jpg" alt="" srcset="">
+            <div class="banner-buttons center">
+                <button class="explore-btn"><a>Explore</a></button>
+                <div class="authentication">
+
+                    <button class="authentication-btn"><A href="#">Sign In</A></button>
+                    <button class="authentication-btn" id="btn-2"><A href="#">Sign Up</A></button>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="products-page">
+            <h1 class="catchy-heading">Discover Innovation: <span>Unveiling Our Latest JordFins!</span></h1>
+            <hr class="products-page-hr">
+            <div class="products-main flex">
+                <div class="filter ">
+                    <h1 class="filter-h1">FILTERS</h1>
+                    <div class="filters">
+
+                        <div class="price-filter flex-column h14 jc-center filter_filter " id="filter_filter">
+                            <h1>PRICE &nbsp; &nbsp;<i class="fa-solid fa-chevron-down dropdown" style="color: #000205; "
+                                    id="dropdown"></i></h1>
+                            <div class="price-value-content filter_content" id="filter_content">
+
+                                <div class="price-filter-value center" id="price_value">
+                                    1250
+                                </div>
+                                <label>
+                                    <sub>500</sub>
+                                    <input type="range" min="500" max="2000" value="1250" step=250 id="filterPrice">
+                                    <sub>2000</sub>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="type-filter flex-column h14 jc-center filter_filter">
+                            <h1>CATEGORY &nbsp; &nbsp; <i class="fa-solid fa-chevron-down dropdown"
+                                    style="color: #000205; "></i></h1>
+                            <div class="type-filter-content filter_content checkbox-filter-content" id="filter_content">
+
+                                <label class="center" for="">
+                                    <input type="checkbox" name="" id=""> Individual
+                                </label>
+                                <label class="center" for="">
+                                    <input type="checkbox" name="" id=""> Industry
+                                </label>
+                                <label class="center" for="">
+                                    <input type="checkbox" name="" id=""> Kitchen
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="voltage-filter flex-column h14 jc-center filter_filter">
+                            <h1>VOLTAGE : &nbsp; &nbsp; <i class="fa-solid fa-chevron-down dropdown"
+                                    style="color: #000205; "></i></h1>
+                            <div class="voltage-filter-content filter_content checkbox-filter-content"
+                                id="filter_content">
+
+                                <label class="center" for="">
+                                    <input type="checkbox" name="" id=""> 12V * 3
+                                </label>
+                                <label class="center" for="">
+                                    <input type="checkbox" name="" id=""> 24V *2
+                                </label>
+                                <label class="center" for="">
+                                    <input type="checkbox" name="" id=""> 36V*1
+                                </label>
+                            </div>
+                        </div>
+                        <div class="mah-filter flex-column h14 jc-center filter_filter">
+                            <h1>MAH : &nbsp; &nbsp; <i class="fa-solid fa-chevron-down dropdown"
+                                    style="color: #000205; "></i></h1>
+                            <div class="mah-filter-content filter_content checkbox-filter-content" id="filter_content">
+
+                                <label class="center" for="">
+                                    <input type="checkbox" name="" id=""> 1200 mah
+                                </label>
+                                <label class="center" for="">
+                                    <input type="checkbox" name="" id=""> 2400 mah
+                                </label>
+                                <label class="center" for="">
+                                    <input type="checkbox" name="" id=""> 3600 mah
+                                </label>
+                                <label class="center" for="">
+                                    <input type="checkbox" name="" id=""> 5000 mah
+                                </label>
+                                <label class="center" for="">
+                                    <input type="checkbox" name="" id=""> 8000 mah
+                                </label>
+                            </div>
+                        </div>
+                        <div class="design-filter flex-column h14 jc-center filter_filter">
+                            <h1>DESIGN : &nbsp; &nbsp; <i class="fa-solid fa-chevron-down dropdown"
+                                    style="color: #000205; "></i></h1>
+                            <div class="design-filter filter_content checkbox-filter-content" id="filter_content">
+
+                                <label class="center" for="">
+                                    <input type="checkbox" name="" id=""> Customized
+                                </label>
+                                <label class="center" for="">
+                                    <input type="checkbox" name="" id=""> Simple
+                                </label>
+                                <label class="center" for="">
+                                    <input type="checkbox" name="" id=""> Printed
+                                </label>
+
+                            </div>
+                        </div>
+                        <div class="compartments-filter flex-column h14 jc-center filter_filter">
+                            <h1>COMPARTMENTS : &nbsp; &nbsp; <i class="fa-solid fa-chevron-down dropdown"
+                                    style="color: #000205; "></i></h1>
+                            <div class="compartments-filter filter_content checkbox-filter-content" id="filter_content">
+
+                                <label class="center" for="">
+                                    <input type="checkbox" name="" id=""> 2
+                                </label>
+                                <label class="center" for="">
+                                    <input type="checkbox" name="" id=""> 3
+                                </label>
+                                <label class="center" for="">
+                                    <input type="checkbox" name="" id=""> Printed
+                                </label>
+
+                            </div>
+                        </div>
+
+
+
+
+
+                    </div>
+                    <div class="advertisement">
+                        <img src="https://vijinv.com/wp-content/uploads/2020/05/Nike-.png" alt="">
+                        <img src="https://vijinv.com/wp-content/uploads/2020/05/Nike-.png" alt="">
+                        <img src="https://vijinv.com/wp-content/uploads/2020/05/Nike-.png" alt="">
+                    </div>
+                </div>
+
+                <div class="products">
+                    <h2 class="products-main-h2">PRODUCTS</h2>
+
+                    <div class="product-row">
+                        <div class="product-card">
+                            <img src="https://t4.ftcdn.net/jpg/01/38/93/93/360_F_138939362_4uEjeWihfPydhFI7SMpn8gecZxRBjWoe.jpg"
+                                alt="img1">
+                            <div class="product-details details-top center">
+                                <div class="product-innerdetails">
+                                    <h4 class="text-muted">MAH</h4>
+                                    <p>2000</p>
+                                </div>
+                                <div class="product-innerdetails">
+                                    <h4 class="text-muted">MAH</h4>
+                                    <p>2000</p>
+                                </div>
+                                <div class="product-innerdetails">
+                                    <h4 class="text-muted">MAH</h4>
+                                    <p>2000</p>
+                                </div>
+                            </div>
+                            <hr class="mt-2 mx-3" style="background-color: #F5F1EE;">
+                            <div class="product-details flex">
+                                <span class="price-muted"> Price : &nbsp;</span> <b>1000rs</b>
+                            </div>
+                            <hr class="mt-2 mx-3" style="background-color: #F5F1EE;">
+                            <div class="product-details center details-bottom">
+                                <div class="product-innerdetails">
+                                    <h4 class="text-muted">MAH</h4>
+                                    <p>2000</p>
+                                </div>
+                                <div class="product-innerdetails">
+                                    <h4 class="text-muted">MAH</h4>
+                                    <p>2000</p>
+                                </div>
+                                <div class="product-innerdetails">
+                                    <h4 class="text-muted">MAH</h4>
+                                    <p>2000</p>
+                                </div>
+                            </div>
+
+                            <div class="product-details">
+                                <button><A><b>View More</b></A></button>
+                            </div>
+                        </div>
+
+
+                        <div class="product-card">
+                            <img src="https://t4.ftcdn.net/jpg/01/38/93/93/360_F_138939362_4uEjeWihfPydhFI7SMpn8gecZxRBjWoe.jpg"
+                                alt="img1">
+                            <div class="product-details details-top center">
+                                <div class="product-innerdetails">
+                                    <h4 class="text-muted">MAH</h4>
+                                    <p>2000</p>
+                                </div>
+                                <div class="product-innerdetails">
+                                    <h4 class="text-muted">MAH</h4>
+                                    <p>2000</p>
+                                </div>
+                                <div class="product-innerdetails">
+                                    <h4 class="text-muted">MAH</h4>
+                                    <p>2000</p>
+                                </div>
+                            </div>
+                            <hr class="mt-2 mx-3" style="background-color: #F5F1EE;">
+                            <div class="product-details flex">
+                                <span class="price-muted"> Price : &nbsp;</span> <b>1000rs</b>
+                            </div>
+                            <hr class="mt-2 mx-3" style="background-color: #F5F1EE;">
+                            <div class="product-details center details-bottom">
+                                <div class="product-innerdetails">
+                                    <h4 class="text-muted">MAH</h4>
+                                    <p>2000</p>
+                                </div>
+                                <div class="product-innerdetails">
+                                    <h4 class="text-muted">MAH</h4>
+                                    <p>2000</p>
+                                </div>
+                                <div class="product-innerdetails">
+                                    <h4 class="text-muted">MAH</h4>
+                                    <p>2000</p>
+                                </div>
+                            </div>
+
+                            <div class="product-details">
+                                <button><A><b>View More</b></A></button>
+                            </div>
+                        </div>
+
+
+                        <div class="product-card">
+                            <img src="https://t4.ftcdn.net/jpg/01/38/93/93/360_F_138939362_4uEjeWihfPydhFI7SMpn8gecZxRBjWoe.jpg"
+                                alt="img1">
+                            <div class="product-details details-top center">
+                                <div class="product-innerdetails">
+                                    <h4 class="text-muted">MAH</h4>
+                                    <p>2000</p>
+                                </div>
+                                <div class="product-innerdetails">
+                                    <h4 class="text-muted">MAH</h4>
+                                    <p>2000</p>
+                                </div>
+                                <div class="product-innerdetails">
+                                    <h4 class="text-muted">MAH</h4>
+                                    <p>2000</p>
+                                </div>
+                            </div>
+                            <hr class="mt-2 mx-3" style="background-color: #F5F1EE;">
+                            <div class="product-details flex">
+                                <span class="price-muted"> Price : &nbsp;</span> <b>1000rs</b>
+                            </div>
+                            <hr class="mt-2 mx-3" style="background-color: #F5F1EE;">
+                            <div class="product-details center details-bottom">
+                                <div class="product-innerdetails">
+                                    <h4 class="text-muted">MAH</h4>
+                                    <p>2000</p>
+                                </div>
+                                <div class="product-innerdetails">
+                                    <h4 class="text-muted">MAH</h4>
+                                    <p>2000</p>
+                                </div>
+                                <div class="product-innerdetails">
+                                    <h4 class="text-muted">MAH</h4>
+                                    <p>2000</p>
+                                </div>
+                            </div>
+
+                            <div class="product-details">
+                                <button><A><b>View More</b></A></button>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="product-row">
+                        <div class="product-card">
+                            <img src="https://t4.ftcdn.net/jpg/01/38/93/93/360_F_138939362_4uEjeWihfPydhFI7SMpn8gecZxRBjWoe.jpg"
+                                alt="img1">
+                            <div class="product-details details-top center">
+                                <div class="product-innerdetails">
+                                    <h4 class="text-muted">MAH</h4>
+                                    <p>2000</p>
+                                </div>
+                                <div class="product-innerdetails">
+                                    <h4 class="text-muted">MAH</h4>
+                                    <p>2000</p>
+                                </div>
+                                <div class="product-innerdetails">
+                                    <h4 class="text-muted">MAH</h4>
+                                    <p>2000</p>
+                                </div>
+                            </div>
+                            <hr class="mt-2 mx-3" style="background-color: #F5F1EE;">
+                            <div class="product-details flex">
+                                <span class="price-muted"> Price : &nbsp;</span> <b>1000rs</b>
+                            </div>
+                            <hr class="mt-2 mx-3" style="background-color: #F5F1EE;">
+                            <div class="product-details center details-bottom">
+                                <div class="product-innerdetails">
+                                    <h4 class="text-muted">MAH</h4>
+                                    <p>2000</p>
+                                </div>
+                                <div class="product-innerdetails">
+                                    <h4 class="text-muted">MAH</h4>
+                                    <p>2000</p>
+                                </div>
+                                <div class="product-innerdetails">
+                                    <h4 class="text-muted">MAH</h4>
+                                    <p>2000</p>
+                                </div>
+                            </div>
+
+                            <div class="product-details">
+                                <button><A><b>View More</b></A></button>
+                            </div>
+                        </div>
+
+
+                        <div class="product-card">
+                            <img src="https://t4.ftcdn.net/jpg/01/38/93/93/360_F_138939362_4uEjeWihfPydhFI7SMpn8gecZxRBjWoe.jpg"
+                                alt="img1">
+                            <div class="product-details details-top center">
+                                <div class="product-innerdetails">
+                                    <h4 class="text-muted">MAH</h4>
+                                    <p>2000</p>
+                                </div>
+                                <div class="product-innerdetails">
+                                    <h4 class="text-muted">MAH</h4>
+                                    <p>2000</p>
+                                </div>
+                                <div class="product-innerdetails">
+                                    <h4 class="text-muted">MAH</h4>
+                                    <p>2000</p>
+                                </div>
+                            </div>
+                            <hr class="mt-2 mx-3" style="background-color: #F5F1EE;">
+                            <div class="product-details flex">
+                                <span class="price-muted"> Price : &nbsp;</span> <b>1000rs</b>
+                            </div>
+                            <hr class="mt-2 mx-3" style="background-color: #F5F1EE;">
+                            <div class="product-details center details-bottom">
+                                <div class="product-innerdetails">
+                                    <h4 class="text-muted">MAH</h4>
+                                    <p>2000</p>
+                                </div>
+                                <div class="product-innerdetails">
+                                    <h4 class="text-muted">MAH</h4>
+                                    <p>2000</p>
+                                </div>
+                                <div class="product-innerdetails">
+                                    <h4 class="text-muted">MAH</h4>
+                                    <p>2000</p>
+                                </div>
+                            </div>
+
+                            <div class="product-details">
+                                <button><A><b>View More</b></A></button>
+                            </div>
+                        </div>
+
+
+                        <div class="product-card">
+                            <img src="https://t4.ftcdn.net/jpg/01/38/93/93/360_F_138939362_4uEjeWihfPydhFI7SMpn8gecZxRBjWoe.jpg"
+                                alt="img1">
+                            <div class="product-details details-top center">
+                                <div class="product-innerdetails">
+                                    <h4 class="text-muted">MAH</h4>
+                                    <p>2000</p>
+                                </div>
+                                <div class="product-innerdetails">
+                                    <h4 class="text-muted">MAH</h4>
+                                    <p>2000</p>
+                                </div>
+                                <div class="product-innerdetails">
+                                    <h4 class="text-muted">MAH</h4>
+                                    <p>2000</p>
+                                </div>
+                            </div>
+                            <hr class="mt-2 mx-3" style="background-color: #F5F1EE;">
+                            <div class="product-details flex">
+                                <span class="price-muted"> Price : &nbsp;</span> <b>1000rs</b>
+                            </div>
+                            <hr class="mt-2 mx-3" style="background-color: #F5F1EE;">
+                            <div class="product-details center details-bottom">
+                                <div class="product-innerdetails">
+                                    <h4 class="text-muted">MAH</h4>
+                                    <p>2000</p>
+                                </div>
+                                <div class="product-innerdetails">
+                                    <h4 class="text-muted">MAH</h4>
+                                    <p>2000</p>
+                                </div>
+                                <div class="product-innerdetails">
+                                    <h4 class="text-muted">MAH</h4>
+                                    <p>2000</p>
+                                </div>
+                            </div>
+
+                            <div class="product-details">
+                                <button><A><b>View More</b></A></button>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="product-row">
+                        <div class="product-card">
+                            <img src="https://t4.ftcdn.net/jpg/01/38/93/93/360_F_138939362_4uEjeWihfPydhFI7SMpn8gecZxRBjWoe.jpg"
+                                alt="img1">
+                            <div class="product-details details-top center">
+                                <div class="product-innerdetails">
+                                    <h4 class="text-muted">MAH</h4>
+                                    <p>2000</p>
+                                </div>
+                                <div class="product-innerdetails">
+                                    <h4 class="text-muted">MAH</h4>
+                                    <p>2000</p>
+                                </div>
+                                <div class="product-innerdetails">
+                                    <h4 class="text-muted">MAH</h4>
+                                    <p>2000</p>
+                                </div>
+                            </div>
+                            <hr class="mt-2 mx-3" style="background-color: #F5F1EE;">
+                            <div class="product-details flex">
+                                <span class="price-muted"> Price : &nbsp;</span> <b>1000rs</b>
+                            </div>
+                            <hr class="mt-2 mx-3" style="background-color: #F5F1EE;">
+                            <div class="product-details center details-bottom">
+                                <div class="product-innerdetails">
+                                    <h4 class="text-muted">MAH</h4>
+                                    <p>2000</p>
+                                </div>
+                                <div class="product-innerdetails">
+                                    <h4 class="text-muted">MAH</h4>
+                                    <p>2000</p>
+                                </div>
+                                <div class="product-innerdetails">
+                                    <h4 class="text-muted">MAH</h4>
+                                    <p>2000</p>
+                                </div>
+                            </div>
+
+                            <div class="product-details">
+                                <button><A><b>View More</b></A></button>
+                            </div>
+                        </div>
+
+
+                        <div class="product-card">
+                            <img src="https://t4.ftcdn.net/jpg/01/38/93/93/360_F_138939362_4uEjeWihfPydhFI7SMpn8gecZxRBjWoe.jpg"
+                                alt="img1">
+                            <div class="product-details details-top center">
+                                <div class="product-innerdetails">
+                                    <h4 class="text-muted">MAH</h4>
+                                    <p>2000</p>
+                                </div>
+                                <div class="product-innerdetails">
+                                    <h4 class="text-muted">MAH</h4>
+                                    <p>2000</p>
+                                </div>
+                                <div class="product-innerdetails">
+                                    <h4 class="text-muted">MAH</h4>
+                                    <p>2000</p>
+                                </div>
+                            </div>
+                            <hr class="mt-2 mx-3" style="background-color: #F5F1EE;">
+                            <div class="product-details flex">
+                                <span class="price-muted"> Price : &nbsp;</span> <b>1000rs</b>
+                            </div>
+                            <hr class="mt-2 mx-3" style="background-color: #F5F1EE;">
+                            <div class="product-details center details-bottom">
+                                <div class="product-innerdetails">
+                                    <h4 class="text-muted">MAH</h4>
+                                    <p>2000</p>
+                                </div>
+                                <div class="product-innerdetails">
+                                    <h4 class="text-muted">MAH</h4>
+                                    <p>2000</p>
+                                </div>
+                                <div class="product-innerdetails">
+                                    <h4 class="text-muted">MAH</h4>
+                                    <p>2000</p>
+                                </div>
+                            </div>
+
+                            <div class="product-details">
+                                <button><A><b>View More</b></A></button>
+                            </div>
+                        </div>
+
+
+                        <div class="product-card">
+                            <img src="https://t4.ftcdn.net/jpg/01/38/93/93/360_F_138939362_4uEjeWihfPydhFI7SMpn8gecZxRBjWoe.jpg"
+                                alt="img1">
+                            <div class="product-details details-top center">
+                                <div class="product-innerdetails">
+                                    <h4 class="text-muted">MAH</h4>
+                                    <p>2000</p>
+                                </div>
+                                <div class="product-innerdetails">
+                                    <h4 class="text-muted">MAH</h4>
+                                    <p>2000</p>
+                                </div>
+                                <div class="product-innerdetails">
+                                    <h4 class="text-muted">MAH</h4>
+                                    <p>2000</p>
+                                </div>
+                            </div>
+                            <hr class="mt-2 mx-3" style="background-color: #F5F1EE;">
+                            <div class="product-details flex">
+                                <span class="price-muted"> Price : &nbsp;</span> <b>1000rs</b>
+                            </div>
+                            <hr class="mt-2 mx-3" style="background-color: #F5F1EE;">
+                            <div class="product-details center details-bottom">
+                                <div class="product-innerdetails">
+                                    <h4 class="text-muted">MAH</h4>
+                                    <p>2000</p>
+                                </div>
+                                <div class="product-innerdetails">
+                                    <h4 class="text-muted">MAH</h4>
+                                    <p>2000</p>
+                                </div>
+                                <div class="product-innerdetails">
+                                    <h4 class="text-muted">MAH</h4>
+                                    <p>2000</p>
+                                </div>
+                            </div>
+
+                            <div class="product-details">
+                                <button><A><b>View More</b></A></button>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                    <div class="pagination">
+                        <button class="prev-page pagination-btn">
+                            <a href="/">&#8592;</a>
+                        </button>
+                        <button class="next-page pagination-btn">
+                            <a href="/">&#8594;</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="about-product-presenting">
+            <div class="about-product-presenting-content">
+
+                <img src="/jordtiffins/public/images/delivery-girl.jpeg" alt="">
+                <div class="about-product-presenting-text">
+                    <div class="heading-text">
+                        <h2>PRESENTING</h2>
+                        <h1>JordFins</h1>
+                    </div>
+                    <div class="text-paragraph">
+
+                        JordFins, the brainchild of the dynamic duo Mr. Jayant Kumar Gautam and Mr. Gyanchand Gautam, is
+                        not just a company; it's a harbinger of innovation in the realm of everyday products. One of
+                        their standout offerings is a revolutionary smart tiffin that ingeniously keeps your food warm
+                        with the convenience of a rechargeable battery. This innovative approach to food preservation
+                        has positioned JordFins as a trailblazer in the market, redefining the way we experience daily
+                        meals.
+
+                        What sets JordFins apart is not just its cutting-edge technology but also its unwavering
+                        commitment to safety. The smart tiffin is equipped with a myriad of safety features to ensure a
+                        worry-free user experience. From temperature sensors that regulate the heat to prevent
+                        overheating, to a secure and robust rechargeable battery system, JordFins prioritizes the safety
+                        of its users.
+
+                        The smart tiffin is designed with user convenience in mind, incorporating features that go
+                        beyond mere warmth retention. With intelligent controls and a user-friendly interface, the
+                        tiffin offers a seamless experience, allowing users to customize their food's temperature
+                        according to their preferences. Additionally, safety mechanisms such as automatic shut-off and
+                        heat-resistant materials contribute to the overall reliability and security of the product.
+
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="about-founders">
+            <h1 class="catchy-heading">About Us</h1>
+            <hr class="products-page-hr about-founders-hr">
+            <div class="about-founders-founder">
+
+                <div class="about-founders-content flex">
+
+                    <div class="about-founders-img">
+
+                        <img src="/jordtiffins/public/images/founder-edited.jpg" alt="">
+                    </div>
+                    <div class="about-founders-text">
+                        <h1>MR. JAYANT KUMAR GAUTAM</h1>
+                        <h3 class="text-muted about-founders-text-designation">Founder JordBhai Company Pvt Ltd.</h3>
+                        <hr>
+                        <div class="about-founders-text-paras">
+
+                            <p>
+                                Meet Mr. Jayant Kumar Gautam, a remarkable 14-year-old entrepreneur and the visionary
+                                founder of JordFins. Despite his young age, Jayant has already left an indelible mark on
+                                the world of innovation with his groundbreaking company. JordFins specializes in
+                                creating cutting-edge products that revolutionize the way we approach everyday tasks,
+                                particularly in the realm of food preservation. One of their standout offerings includes
+                                a unique line of products designed to keep your tiffin warm with just the press of a
+                                button.</p>
+
+                            <p>Jayant's journey into entrepreneurship began as a passion project driven by his
+                                insatiable curiosity and desire to make a positive impact on people's lives. Fueled by
+                                an entrepreneurial spirit that belies his age, Jayant has demonstrated an exceptional
+                                ability to think outside the box and turn innovative ideas into reality. His dedication
+                                to creating user-friendly and practical solutions has quickly set JordFins apart in the
+                                competitive market.</p>
+
+                            <p>As the founder of JordFins, Jayant wears many hats, from a visionary leader to a hands-on
+                                problem solver. His youthful energy, coupled with a keen sense of business acumen,
+                                propels JordFins forward into uncharted territory. In a world where age is no barrier to
+                                success, Jayant Kumar Gautam stands as a testament to the limitless possibilities that
+                                arise when passion meets determination in the exciting realm of entrepreneurship.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="about-founders-cofounder">
+
+
+                <div class="about-founders-content flex">
+
+
+                    <div class="about-founders-text">
+                        <h1>MR. GYAN CHAND GAUTAM</h1>
+                        <h3 class="text-muted about-founders-text-designation">Co-Founder JordBhai Company Pvt Ltd.</h3>
+                        <hr>
+                        <div class="about-founders-text-paras">
+
+                            <p>
+
+                                Introducing Mr. Gyanchand Gautam, not only the father but also the co-founder of
+                                JordFins, the innovative company founded by his 14-year-old son, Mr. Jayant Kumar
+                                Gautam. Despite lacking any prior experience in the business realm, Mr. Gyanchand
+                                embraced the role of a co-founder with enthusiasm and determination, showcasing that a
+                                fresh perspective and a supportive attitude can triumph over conventional wisdom.
+
+                            </p>
+
+                            <p>In a world where business acumen is often associated with years of experience, Mr.
+                                Gyanchand's journey challenges the norm. His leap into entrepreneurship alongside his
+                                son underscores the power of belief, resilience, and the willingness to venture into
+                                uncharted territory. As a co-founder, he actively contributes to the company's
+                                decision-making processes, blending his life experience with Jayant's youthful
+                                exuberance to create a dynamic and harmonious entrepreneurial partnership.</p>
+
+                            <p>This father-son duo not only defies age stereotypes but also demonstrates the strength
+                                that lies in family support. Mr. Gyanchand Gautam's journey as a co-founder, despite
+                                lacking a traditional business background, adds a unique and inspiring dimension to the
+                                story of JordFins, highlighting that passion and dedication can often trump formal
+                                experience in the unpredictable world of entrepreneurship.
+
+
+
+
+
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="about-founders-img">
+
+                        <img src="/jordtiffins/public/images/co-founder-png-removebg-preview.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="faqs center">
+            <h1>Need Help? We've got your back!</h1>
+            <div class="faqs-main ">
+                <div class="faq">
+                    <div class="question">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quia nemo voluptas!
+                        Accusantium dolore possimus veniam amet tempora, sed beatae? <span>+</span>
+                    </div>
+                    <div class="answer">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, fugiat. Illum temporibus
+                        quibusdam sapiente adipisci facilis asperiores quos. Maxime explicabo et ipsum quia pariatur
+                        rem? Explicabo distinctio qui delectus blanditiis?
+                    </div>
+                </div>
+                <div class="faq">
+                    <div class="question">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quia nemo voluptas!
+                        Accusantium dolore possimus veniam amet tempora, sed beatae? <span>+</span>
+                    </div>
+                    <div class="answer">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, fugiat. Illum temporibus
+                        quibusdam sapiente adipisci facilis asperiores quos. Maxime explicabo et ipsum quia pariatur
+                        rem? Explicabo distinctio qui delectus blanditiis?
+                    </div>
+                </div>
+                <div class="faq">
+                    <div class="question">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quia nemo voluptas!
+                        Accusantium dolore possimus veniam amet tempora, sed beatae? <span>+</span>
+                    </div>
+                    <div class="answer">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, fugiat. Illum temporibus
+                        quibusdam sapiente adipisci facilis asperiores quos. Maxime explicabo et ipsum quia pariatur
+                        rem? Explicabo distinctio qui delectus blanditiis?
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+
+
+        <div class="ft-newsletter">
+            <h1>Subscribe to stay in loop with our latest products</h1>
+            <p>Email address</p>
+            <input type="text" name="" id="" placeholder="Email  : ">
+            <button>Subscribe</button>
+        </div>
+        <div class="ft-quick-links">
+            <h1>Quick Links</h1>
+            <ul>
+                <li><a href="#">Cart</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">About-Founders</a></li>
+                <li><a href="#">Products</a></li>
+            </ul>
+        </div>
+        <div class="ft-contact">
+            <h1>Contact</h1>
+            <ul>
+                <li><i class="fa-solid fa-house"></i><span>No physical shops</span></li>
+                <li><a href="#"><i class="fa-brands fa-instagram"></i></a><span>untitled_page15</span></li>
+                <li><i class="fa-brands fa-whatsapp"></i><span>8826667521</span></li>
+            </ul>
+        </div>
+
+    </div>
+
+
+</body>
+<script src="./index.js"></script>
+
+</html>

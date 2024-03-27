@@ -1,0 +1,35 @@
+Certainly! If you have a specific color code #FF9900, which is a bright orange-yellow color, and you want variations of that shade in darker orange tones, you can use the following color codes for different shades of orange:
+
+Dark Orange: #FF6600
+Burnt Orange: #FF8000
+Rust Orange: #CC6600
+Terracotta: #E97451
+Copper: #B87333
+These colors are variations of the same orange shade, each with a different level of darkness and warmth. You can use them in your e-commerce website design to create a harmonious color scheme that complements your brand and the products you're selling.
+
+Orange Shade: #FF9900 (Primary color)
+Deep Burgundy: #800020
+
+Orange Shade: #FF9900 (Your primary color)
+Deep Blue: #001F3F (A deep navy blue that complements the orange)
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Fira+Sans&family=Hind+Siliguri:wght@500&family=Inter&family=Noto+Sans&family=Nunito:wght@500&family=PT+Sans&family=Poppins&family=Roboto&family=Roboto+Condensed&family=Unbounded&family=Varela+Round&display=swap');
+
+@font-face {
+  font-family: 'YourFontName';
+  src: url('path/to/your-font.woff2') format('woff2'),
+       url('path/to/your-font.woff') format('woff');
+  /* You can add more file formats if needed, such as ttf or eot */
+  /* Additional font properties, if needed, can be added here */
+}
+
+<link rel="stylesheet" href="path/to/bootstrap.min.css">
+
+medium aquamarine
+
+F5F1EEv - hr
+ECEDF1 - bg
+
+
+text-shadow: -20em 18em 0em rgba(0,0,0,0.4);
