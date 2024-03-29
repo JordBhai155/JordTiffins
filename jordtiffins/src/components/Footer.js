@@ -12,7 +12,7 @@ function Footer() {
         btn.preventDefault()
         try{
 
-            const response = await fetch("http://localhost:3001/api/newuser",{
+            const response = await fetch("https://jordfins.onrender.com/api/newuser",{
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'

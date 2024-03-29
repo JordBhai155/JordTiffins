@@ -57,10 +57,10 @@ function Products(props) {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        // const response = await fetch(`http://localhost:3001/api/product`);
-        const response = await fetch(`http://localhost:3001/api/product?filterType=${filterType}&filterName=${filterName}`);
-        // const response = await fetch(`http://localhost:3001/api/product?${filterType}&${filterName}`);
-        // const response = await fetch(`http://localhost:3001/api/product/${filterType}/${filterName}`);
+        // const response = await fetch(`https://jordfins.onrender.com/api/product`);
+        const response = await fetch(`https://jordfins.onrender.com/api/product?filterType=${filterType}&filterName=${filterName}`);
+        // const response = await fetch(`https://jordfins.onrender.com/api/product?${filterType}&${filterName}`);
+        // const response = await fetch(`https://jordfins.onrender.com/api/product/${filterType}/${filterName}`);
         if (!response.ok) {
           throw new Error(`HTTP error! Status: ${response.status}`);
         }

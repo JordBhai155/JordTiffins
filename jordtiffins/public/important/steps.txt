@@ -93,7 +93,7 @@ Use fetch or a library like axios in your React components to fetch data from yo
 javascript
 Copy code
 // Example using fetch
-fetch('http://localhost:3001/api/products')
+fetch('https://jordfins.onrender.com/api/products')
   .then(response => response.json())
   .then(data => console.log(data))
   .catch(error => console.error('Error:', error));
@@ -109,7 +109,7 @@ const ProductList = () => {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
-    fetch('http://localhost:3001/api/products')
+    fetch('https://jordfins.onrender.com/api/products')
       .then(response => response.json())
       .then(data => setProducts(data))
       .catch(error => console.error('Error:', error));

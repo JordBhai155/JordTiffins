@@ -9,7 +9,7 @@ function Faqs() {
      
     const fetchData =  async() =>{
         try{
-            const res = await fetch('http://localhost:3001/api/faqs')
+            const res = await fetch('https://jordfins.onrender.com/api/faqs')
             if(!res.ok){
                 throw new Error(`HTTP error! Status: ${res.status}`);
             }
