@@ -33,16 +33,17 @@ mongoconnect()
 app.get("/api/product",async(req,res)=>{
    try{
       let {filterType,filterName} = req.query
-      filterType.toLowerCase().replace(/\s/g, '')
-      filterName.toLowerCase().replace(/\s/g, '')
+      
 
       await mongoconnect()
 
       let data = await fetchProducts();
       let filteredData
       if(filterType && filterName){
-         // console.log(filterType)
-         // console.log(filterName)
+
+         filterType.toLowerCase().replace(/\s/g, '')
+         filterName.toLowerCase().replace(/\s/g, '')
+         
          if(filterType === "price"){
             
             filteredData = data.filter(product=>{
