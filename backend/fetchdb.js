@@ -8,8 +8,6 @@ let isConnected = false
 const mongoconnect = async () => {
   try {
     if(!isConnected){await mongoose.connect(URI, {
-      useNewUrlParser: true,
-      useUnifiedTopology: true,
     });
 
     console.log("Connected to MongoDB");
