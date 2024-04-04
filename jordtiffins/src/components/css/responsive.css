@@ -57,7 +57,7 @@
         flex-direction: column;
     }
     .text-paragraph{
-        font-size: 12px;
+        font-size: 2.5vw;
     }
     
     
@@ -129,6 +129,20 @@
    .answer{
         font-size: 13px;
    }
+   .about-founders-content {
+    position: relative;
+
+}
+
+.about-founders-img{
+    position: absolute;
+    z-index: -1;
+    opacity: 0.8;
+}
+}.about-founders-text {
+    margin-left: 59px;
+    font-weight: bold;
+    margin-top: 20px;
 }
 
 @media screen and (min-width:410px) and (max-width:700px){
