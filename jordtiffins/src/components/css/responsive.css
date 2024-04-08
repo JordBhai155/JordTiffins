@@ -1,4 +1,4 @@
-@media screen and (min-width : 300px ) and (max-width : 700px){
+@media screen and (min-width : 300px ) and (max-width : 850px){
     .about-product-presenting {
         margin-top: 100px;
         display: flex;
@@ -138,14 +138,26 @@
     position: absolute;
     z-index: -1;
     opacity: 0.8;
-}
 }.about-founders-text {
     margin-left: 59px;
     font-weight: bold;
     margin-top: 20px;
 }
+.about-founders-img {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+.about-founders-img img {
+    width: 100%;
+   
+}
+.left-ul .right-ul{
+    display: none;
+}
+}
 
-@media screen and (min-width:410px) and (max-width:700px){
+@media screen and (min-width:410px) and (max-width:850px){
     
     .heading-text h2{
         height: 42px;
@@ -155,9 +167,7 @@
         color: #F66C24;
         font-family: "PT Sans";
         padding-left: 128px;}
-    .heading-text{
-        padding-left: 0;
-    }
+    
 }
 
 /* For Small Devices (e.g., smartphones) */

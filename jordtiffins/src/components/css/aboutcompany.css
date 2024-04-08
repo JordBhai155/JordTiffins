@@ -9,6 +9,7 @@
     display: flex;
     width: 96%;
     margin-top: 32px;
+    padding-bottom: 60px;
 }
 
 .about-product-presenting-content img{
@@ -35,10 +36,10 @@
     color: whitesmoke;
     margin-top: 32px;
     font-size: 18px;
-    padding-bottom: 49px;
+    /* padding-bottom: 49px; */
 }
 
 .heading-text{
-    padding-left: 191px;
+    padding-left: 25vh;
 }
 
