@@ -58,7 +58,7 @@ function Footer() {
                     <h1>Contact</h1>
                     <ul>
                         <li><i className="fa-solid fa-house"></i><span>No physical shops</span></li>
-                        <li><a href="#"><i className="fa-brands fa-instagram"></i></a><span>untitled_page15</span></li>
+                        <li><a href="#"><i className="fa-brands fa-instagram"></i></a><span>jord.155</span></li>
                         <li><i className="fa-brands fa-whatsapp"></i><span>8826667521</span></li>
                     </ul>
                 </div>

@@ -1,7 +1,7 @@
 
 .ft-quick-links a{
     color: white;
-    font-size: 20px;
+    /* font-size: 2vw; */
 }
 
 .footer input::placeholder{
@@ -29,7 +29,7 @@
 .ft-newsletter p{
     margin-top: 40px;
     padding-bottom: 16px;
-    font-size: 20px;
+    /* font-size: 3vw  ; */
     color: white;
 }
 .ft-newsletter input{
@@ -46,7 +46,8 @@
 
 .ft-newsletter button{
     margin-top: 30px;
-    width: 20vw;
+    /* width: 20vw; */
+    padding: 0 20px 0 20px;
     border: none;
     border-radius: 14px;
     background: beige;
@@ -71,7 +72,9 @@
 }
 .footer h1{
     color: #FF9900;
+    font-size: 4vw;
 }
+
 
 .ft-quick-links ul{
     margin-top: 48px;
@@ -91,7 +94,7 @@
 .ft-contact ul li span{
     margin-left: 10px;
     color: #ffffff;
-    font-size: 17px;
+    /* font-size: 17px; */
     font-family: "Helvetica";
 }
 .ft-contact ul li i{

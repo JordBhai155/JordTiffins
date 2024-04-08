@@ -16,7 +16,12 @@ li{
 }
 
 
-
+#menu-navbar{
+    display: none;
+    color: grey;
+    font-size: 28px;
+    margin-left: 19px;
+}
 .navbar ul li a{
     color: black;
     font-family: "Hind Siliguri";
