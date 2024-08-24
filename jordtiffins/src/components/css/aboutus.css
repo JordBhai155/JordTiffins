@@ -1,0 +1,73 @@
+
+.about-founders{
+    margin-top: 77px;
+}
+
+.about-founders-hr{
+    width: 35%;
+    animation: moveRight-aboutHr 2s linear ;
+}
+.about-founders-img{
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 10px;
+}
+
+.about-founders-img img{
+    width: 40vw;
+    height: 100%;
+}
+
+.about-founders-content{
+    margin-top: 70px;
+}
+
+@keyframes moveRight-aboutHr {
+    0%{
+        width: 0%;
+    }
+    50%{
+        width: 15%
+    }
+    100%{
+        width: 35%;
+    }
+}
+
+.about-founders-text{
+    margin-left: 59px;
+    margin-top: 20px;
+}
+.about-founders-text-designation{
+    opacity: 0.8;
+    font-family: 'Noto Sans';
+    margin-left: 4px;
+    margin-top: 5px;
+}
+.about-founders-text-paras{
+    width: 86%;
+    margin-top: 40px;
+    padding-bottom: 40px;
+}
+
+.about-founders-text-paras p{
+    margin-top: 20px;
+}
+
+.about-founders-text hr{
+    margin-top: 14px;
+    margin-left: 5px;
+    width: 34%;
+    height: 7px;
+    background: #FF9900;
+    border: 0;
+    border-radius: 10px;
+}
+
+.about-founders-cofounder{
+    background: #E8A570;
+}
+
+.about-founders-cofounder hr{
+    background: mediumaquamarine;
+}

@@ -1,0 +1,60 @@
+.banner{
+    flex-direction: column;
+    position: relative;
+}
+
+.banner img{
+    height: 619px;
+    width: 90%;
+    margin-top: 50px;
+}
+
+.banner-buttons{
+    position: absolute;
+    width: 100%;
+    bottom: 99px;
+    flex-direction: column;
+}
+.banner-buttons .explore-btn{
+    width: 10%;
+    height: 46px;
+    color: #674c33;
+    background-color: #d7b229;
+    /* background: #3498db; */
+    border: 1px solid white;
+    border-radius: 20px;
+    font-weight: bolder;
+    font-size: 22px;
+
+}
+
+
+.authentication{
+    position: relative;
+    top: 40px;
+}
+
+.authentication .authentication-btn{
+    height: 53px;
+    font-size: 20px;
+    width: 7em;
+    /* margin-left: 20px; */
+    border: 1px solid white;
+    border-radius: 18px;
+    font-weight: bold;
+    background-color: #007BFF;
+    color: darkblue;
+}
+
+#btn-2{
+    margin-left: 20px;
+    
+}
+
+.banner button{
+    transition: 0.2s ease transform;
+}
+.banner button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}

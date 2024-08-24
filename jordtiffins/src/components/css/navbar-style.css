@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Helvetica";
+    src: url("../../../public/fonts/Helvetica.ttf");
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+
+
+#menu-navbar{
+    display: none;
+    color: grey;
+    font-size: 28px;
+    margin-left: 19px;
+}
+.navbar ul li a{
+    color: black;
+    font-family: "Hind Siliguri";
+    padding-left: 20px;
+    transition: transform 0.2s ease;
+    display: inline-block;
+}
+
+.navbar ul li a:hover{
+    color: #808080;
+    transform: scale(1.1);
+    /* border-bottom: 2px solid black; */
+}
+.name-logo{
+    color: #FF9900;
+}
+.name-logo img{
+    height: 100px;
+}
+
+.navbar-hr{
+    width: 80%;
+    margin: auto;
+    color: #808080;
+    background-color: #808080;
+    height: 2px;
+    border:none;
+    /* border: 1cm solid; */
+    /* size: 2px; */
+}

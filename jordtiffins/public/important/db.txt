@@ -1,0 +1,13 @@
+product name
+price
+tags
+category
+material
+used for
+voltage operating
+safety priortized
+mah
+custom designed
+predesigned
+normal solid colored
+compartments

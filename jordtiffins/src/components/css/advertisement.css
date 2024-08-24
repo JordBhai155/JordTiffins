@@ -1,0 +1,16 @@
+
+.advertisement{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* padding-bottom: 40px; */
+    margin-top: 40px;
+    align-items: center;
+}
+
+.advertisement img{
+    width: 79%;
+    height: 68vh;
+    /* margin: auto; */
+    margin-top: 40px;
+}

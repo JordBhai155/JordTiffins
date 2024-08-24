@@ -1,0 +1,196 @@
+@media screen and (max-width : 850px){
+    .about-product-presenting {
+        margin-top: 100px;
+        display: flex;
+        /* height: 119vh; */
+        flex-direction: column;
+        background: #E8A570;
+    }
+    
+    .about-product-presenting-content img {
+        /* height: 93vh; */
+        width: 100%;
+        margin-left: 20px;
+        /* margin-top: 150px; */
+        opacity: 0.6;
+    }
+    .about-product-presenting-text {
+        margin-left: 18px;
+        position: absolute;
+        /* text-align: center; */
+        width: 91%;
+    }
+    .text-paragraph {
+        color: white;
+        margin-top: 32px;
+        font-size: 100%;
+        /* font-size: 18px; */
+        text-align: center;
+    }
+    /* Main Banner */
+    .banner img {
+        height: 574px;
+        width: 97%;
+        margin-top: 50px;
+    }
+    .banner-buttons .explore-btn {
+        width: 33%;
+        height: 38px;
+        top: 20;
+        margin-bottom: 20px;
+        margin-top: 22px;
+        color: #020202;
+        background-color: #d7b229;
+        /* background: #3498db; */
+        border: 1px solid white;
+        border-radius: 20px;
+        font-weight: bolder;
+        font-size: 15px;
+    }
+    .banner-buttons .explore-btn {
+        width: 25%;
+    }
+    .banner-buttons {
+        position: absolute;
+        width: 100%;
+        bottom: 10px;
+        flex-direction: column;
+    }
+    .text-paragraph{
+        font-size: 2.5vw;
+    }
+    
+    
+    .heading-text h2{
+        height: 35px;
+    }
+    .heading-text h1 {
+        font-size: 49px;
+        color: #F66C24;
+        font-family: "PT Sans";
+        padding-left: 80px;}
+    /* Products */
+    .filter{
+        display: none;
+    }
+    .products{
+        width: 100%;
+        margin-left: 0;
+    }
+ 
+    .product-row {
+        /* border: 2px solid red; */
+        display: flex;
+        overflow: hidden;
+        flex-wrap: wrap;
+        /* justify-content: space-evenly; */
+        /* height: 63vh; */
+        width: 100%;
+        margin-top: 40px;
+    }
+    .product-card{
+        width: 50%;
+        margin-left: 0px;
+    }
+    .product-details button {
+        width: 100%;
+        height: 10%;
+    
+    }
+    /* Minor changes  */
+    .color-circle{
+        height: 15px;
+    }
+    .product-innerdetails{
+        font-size: 11px;
+    }
+    .product-details button{
+        font-size: 16px;
+    }
+    .authentication .authentication-btn{
+        font-size: 1em;
+        height: 3em;
+    }
+    .authentication{
+        top: 0;
+    }
+    .banner-buttons .explore-btn{
+        width: 40%;
+    }
+    /* Pagination */
+
+    .pagination-btn{
+        width: 18%;
+   }
+   .question{
+    font-size: 12px;
+    padding-bottom: 31px;
+   }
+   .answer{
+        font-size: 13px;
+   }
+   .about-founders-content {
+    position: relative;
+
+}
+#left-ul {
+    display: none;
+}
+#right-ul{
+    display: none;
+}
+#menu-navbar{
+    display : flex;
+  
+}
+.about-founders-img{
+    position: absolute;
+    z-index: -1;
+    opacity: 0.8;
+}.about-founders-text {
+    margin-left: 59px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.about-founders-img {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+.about-founders-img img {
+    width: 100%;
+   
+}
+
+}
+
+/* @media screen and (min-width:410px) and (max-width:850px){
+    
+    .heading-text h2{
+        height: 42px;
+    }
+    .heading-text h1 {
+        font-size: 61px;
+        color: #F66C24;
+        font-family: "PT Sans";
+        padding-left: 128px;}
+    
+} */
+
+/* For Small Devices (e.g., smartphones) */
+@media screen and (max-width: 480px) {
+    /* Your CSS styles for small devices go here */
+}
+
+/* For Medium Devices (e.g., larger smartphones) */
+@media screen and (min-width: 481px) and (max-width: 767px) {
+    /* Your CSS styles for medium devices go here */
+}
+
+/* For Large Devices (e.g., phablets) */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .heading-text{
+        padding-left: 0;
+    }
+}
+

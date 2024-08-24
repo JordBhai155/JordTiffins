@@ -1,0 +1,72 @@
+@font-face {
+  font-family: "Helvetica";
+  src: url("../public/fonts/Helvetica.ttf");
+}
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Fira+Sans&family=Hind+Siliguri:wght@500&family=Inter&family=Noto+Sans&family=Nunito:wght@500&family=PT+Sans&family=Poppins&family=Roboto&family=Roboto+Condensed&family=Unbounded&family=Varela+Round&display=swap");
+
+html{
+  overflow-x: hidden;
+}
+
+.flex {
+  display: flex;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  font-family: "Helvetica";
+}
+
+.align {
+  align-items: center;
+}
+
+.jc-center {
+  justify-content: center;
+}
+
+.jc-evenly {
+  justify-content: space-evenly;
+}
+.jc-between {
+  justify-content: space-between;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.h14 {
+  height: 14vh;
+}
+
+.h30 {
+  padding  : 20px 0 20px 0
+}
+
+.mt-2 {
+  margin-top: 8px;
+}
+
+.mx-3 {
+  margin-right: 12px;
+  margin-left: 12px;
+}
+
+.text-muted {
+  color: black;
+  opacity: 0.8;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Hind Siliguri";
+}

@@ -1,0 +1,189 @@
+[
+  {
+    "name": "Button Controlled Insulated Tiffin",
+    "color": "#b5c16b",
+    "category": "education",
+    "tags": [
+      "low voltage",
+      "button attached"
+    ],
+    "price": 799,
+    "voltage": "12V * 3",
+    "mah": 2400,
+    "design": "Plain",
+    "compartments": 2,
+    "description": "Reminds of Home even in school",
+    "path": "/images/products/school_button.jpeg"
+  },
+  {
+    "name": "Taste Controlled Tiffin",
+    "color": "#4e3f3c",
+    "category": "education",
+    "tags": [
+      "low voltage",
+      "button attached",
+      "greenish"
+    ],
+    "price": 899,
+    "voltage": "24V * 2",
+    "mah": 3600,
+    "design": "Plain",
+    "compartments": 2,
+    "description": "Activates your Tastebuds",
+    "path": "/images/products/taste_school.jpeg"
+  },
+  {
+    "name": "Fitness Freaks!",
+    "color": "#8ba937",
+    "category": "individual",
+    "tags": [
+      "low voltage",
+      "button attached",
+      "greenish"
+    ],
+    "price": 899,
+    "voltage": "24V * 2",
+    "mah": 2400,
+    "design": "Plain",
+    "compartments": 1,
+    "description": "Only Protein allowed!",
+    "path": "/images/products/fitness.jpeg"
+  },
+  {
+    "name": "The Cloudy Kitchen",
+    "color": "#e2cd94",
+    "category": "kitchen",
+    "tags": [
+      "low voltage",
+      "button attached",
+      "greenish"
+    ],
+    "price": 799,
+    "voltage": "36V * 1",
+    "mah": 1200,
+    "design": "Plain",
+    "compartments": 4,
+    "description": "Could we also get some of your profit!",
+    "path": "/images/products/cloud_kitchen.jpeg"
+  },
+  {
+    "name": "Industry BoomBoom!",
+    "color": "#f08853",
+    "category": "industry",
+    "tags": [
+      "low voltage",
+      "button attached",
+      "greenish"
+    ],
+    "price": 799,
+    "voltage": "36V * 1",
+    "mah": 1200,
+    "design": "Plain",
+    "compartments": 3,
+    "description": "Expand your business with us!",
+    "path": "/images/products/industry.jpeg"
+  },
+  {
+    "name": "PowerPacked Lunchbox",
+    "color": "#f16f0f",
+    "category": "education",
+    "tags": [
+      "high voltage",
+      "button attached",
+      "orangish"
+    ],
+    "price": 999,
+    "voltage": "24 * 2",
+    "mah": 5000,
+    "design": "Plain",
+    "compartments": 3,
+    "description": "Showoff with us!",
+    "path": "/images/products/college.jpeg"
+  },
+  {
+    "name": "Nomad Mate",
+    "color": "#c2a3a0",
+    "category": "individual",
+    "tags": [
+      "high mah",
+      "easycarry",
+      "safetypremium",
+      "pinkish"
+    ],
+    "price": 1399,
+    "voltage": "24 * 2",
+    "mah": 8000,
+    "design": "Plain",
+    "compartments": 4,
+    "description": "Travellers - Live the life freely!",
+    "path": "/images/products/travel.jpeg"
+  },
+  {
+    "name": "SmartMunch Lunch Container",
+    "color": "#d1c684",
+    "category": "individual",
+    "tags": [
+      "high voltage",
+      "button attached",
+      "golden"
+    ],
+    "price": 1099,
+    "voltage": "36V * 1",
+    "mah": 5000,
+    "design": "Plain",
+    "compartments": 2,
+    "description": "Impress your boss, or be the boss yourself!",
+    "path": "/images/products/officials.jpeg"
+  },
+  {
+    "name": "Designers Delight",
+    "color": "#bcb7b1",
+    "category": "individual",
+    "tags": [
+      "high voltage",
+      "button attached",
+      "orangish"
+    ],
+    "price": 1199,
+    "voltage": "24V * 2",
+    "mah": 3600,
+    "design": "Customized",
+    "compartments": 3,
+    "description": "Designers - Make you love the design of every chef",
+    "path": "/images/products/designers.jpeg"
+  },
+  {
+    "name": "AnimeBento Bliss Box",
+    "color": "#483b3c",
+    "category": "industry",
+    "tags": [
+      "high voltage",
+      "button attached",
+      "orangish"
+    ],
+    "price": 999,
+    "voltage": "24V * 2",
+    "mah": 3600,
+    "design": "Printed",
+    "compartments": 3,
+    "description": "Anime Lovers - Arigato! For visiting us!",
+    "path": "/images/products/anime.jpeg"
+  },
+  {
+    "name": "Personalized Lunch or Lunchbox?",
+    "color": "#e3cdb5",
+    "category": "individual",
+    "tags": [
+      "high voltage",
+      "button attached",
+      "orangish"
+    ],
+    "price": 1099,
+    "voltage": "36V * 1",
+    "mah": 5000,
+    "design": "Customized",
+    "compartments": 3,
+    "description": "Customize your lunchbox like your life!",
+    "path": "/images/products/customized.jpeg"
+  }
+]

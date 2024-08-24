@@ -1,0 +1,111 @@
+
+.ft-quick-links a{
+    color: white;
+    /* font-size: 2vw; */
+}
+
+.footer input::placeholder{
+    color: white;
+}
+.footer input{
+    color: white;
+}
+.footer{
+    display: flex;
+    margin-top: 50px;
+    background: #222222;
+    padding-top: 29px;
+    padding-bottom: 20px;
+    background-size: cover;
+}
+
+
+.ft-newsletter{
+    margin-left: 40px;
+    width: 54%;
+    display: flex;
+    flex-direction: column;
+}
+.ft-newsletter p{
+    margin-top: 40px;
+    padding-bottom: 16px;
+    /* font-size: 3vw  ; */
+    color: white;
+}
+.ft-newsletter input{
+    width: 86%;
+
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    color: white;
+    padding-left: 22px;
+    font-size: 16px;
+    background: transparent;
+}
+
+.ft-newsletter button{
+    margin-top: 30px;
+    /* width: 20vw; */
+    padding: 0 20px 0 20px;
+    border: none;
+    border-radius: 14px;
+    background: beige;
+    height: 51px;
+    font-size: 18px;
+    font-weight: bolder;
+    background: #FF8800;
+    color: black;
+}
+.ft-newsletter button:hover{
+    transform: scale(1.05);
+}
+.ft-quick-links{
+    margin-left: 16px;
+    width: 25%;
+}
+
+.ft-quick-links h1{
+    margin-left: 16px;
+   
+
+}
+.footer h1{
+    color: #FF9900;
+    font-size: 4vw;
+}
+
+
+.ft-quick-links ul{
+    margin-top: 48px;
+    margin-left: 34px;
+}
+.ft-quick-links a:hover{
+    opacity: 0.5;
+}
+
+
+.ft-contact ul{
+    margin-top: 48px;
+}
+.ft-contact ul li{
+    margin-top: 10px;
+}
+.ft-contact ul li span{
+    margin-left: 10px;
+    color: #ffffff;
+    /* font-size: 17px; */
+    font-family: "Helvetica";
+}
+.ft-contact ul li i{
+    color: #ffffff;
+}
+.ft-contact ul li:nth-child(2) i{
+    font-size: 20px;
+}
+.ft-contact ul li:nth-child(3) i{
+    font-size: 20px;
+}
+.ft-contact a{
+    color: black;
+}

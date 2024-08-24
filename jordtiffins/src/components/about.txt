@@ -1,0 +1,1 @@
+Components are the components or codes which are repeated many times like navbar in app.js

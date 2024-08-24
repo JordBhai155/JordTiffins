@@ -1,0 +1,12 @@
+.loader{
+    height: 100%;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    margin: auto;
+}
+
+.loader img{
+    height: 120vh;
+    border-radius: 50%;
+}
